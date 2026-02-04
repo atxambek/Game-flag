@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import { addPlayer } from "./gameEngine.js";
 
 const API_KEY = "AIzaSyDye-sPcSStm9cCAr3nvZ80XkskRwT3AsE";
-const LIVE_CHAT_ID = process.env.LIVE_CHAT_ID;
+const LIVE_CHAT_ID = "QdPy-ngbHjbHiZ0E";
 
 let nextPageToken = "";
 
