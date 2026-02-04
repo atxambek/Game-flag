@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import { addPlayer } from "./gameEngine.js";
 
-const API_KEY = process.env.YOUTUBE_API_KEY;
+const API_KEY = "AIzaSyDye-sPcSStm9cCAr3nvZ80XkskRwT3AsE";
 const LIVE_CHAT_ID = process.env.LIVE_CHAT_ID;
 
 let nextPageToken = "";
