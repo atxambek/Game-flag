@@ -1,0 +1,2 @@
+body{margin:0;background:#111;display:flex;justify-content:center;align-items:center;height:100vh;overflow:hidden;}
+canvas{background:#000;border:5px solid #00ffff;box-shadow:0 0 20px #00ffff;height:90vh;aspect-ratio:9/16;}
