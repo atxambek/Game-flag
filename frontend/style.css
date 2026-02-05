@@ -1,0 +1,56 @@
+body{
+  margin:0;
+  font-family:sans-serif;
+  background:#111;
+  color:#fff;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+}
+
+#gameContainer{
+  width:90%;
+  max-width:500px;
+  margin-top:20px;
+}
+
+#battleArea{
+  position:relative;
+  width:100%;
+  height:600px;
+  background:#222;
+  border:3px solid #0ff;
+  overflow:hidden;
+}
+
+.userFlag{
+  position:absolute;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+}
+
+.userFlag .avatar{
+  width:30px;
+  height:30px;
+  border-radius:50%;
+}
+
+.userFlag .flag{
+  width:60px;
+  height:40px;
+  margin-top:5px;
+}
+
+#leaderboard{
+  margin-top:15px;
+  background:#111;
+  padding:10px;
+  border:2px solid #0ff;
+}
+
+#leaderboard ul{
+  list-style:none;
+  padding:0;
+}
