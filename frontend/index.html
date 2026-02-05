@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flag Battle Live</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gameContainer">
+  <h1>Flag Battle Live</h1>
+  <div id="roundStatus"></div>
+  <div id="battleArea"></div>
+  <div id="results"></div>
+  <div id="leaderboard">
+    <h2>Leaderboard</h2>
+    <ul id="leaderboardList"></ul>
+  </div>
+</div>
+<audio id="roundWinner" src="sounds/winner.mp3"></audio>
+<script src="/socket.io/socket.io.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
