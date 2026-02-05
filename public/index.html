@@ -3,12 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ultimate Flag Game</title>
+<title>Flag Battle Live</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<canvas id="gameCanvas"></canvas>
-<script src="confetti.js"></script>
+
+<div class="app">
+
+  <div class="top">
+    <div class="camera">LIVE CAM</div>
+    <div class="score">
+      <h3>Top Contenders</h3>
+      <p id="leader">1. China</p>
+    </div>
+  </div>
+
+  <canvas id="game"></canvas>
+
+  <div class="bottom">
+    <div class="flags"></div>
+  </div>
+
+</div>
+
 <script src="game.js"></script>
 </body>
 </html>
